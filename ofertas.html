@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ofertas</title>
+    <link rel="stylesheet" href="productos.css">
+    <link rel="shortcut icon" href="img/header/logo.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- HEADER (menú y logo) -->
+    <header>
+        <div class="menu">
+            <!-- Logo -->
+            <a href="index.php" class="btn-img">
+                <img class="img-menu" src="img/header/logo.jpg" alt="logo">
+            </a>
+
+            <!-- Botones con texto -->
+            <a href="productos.html" class="btn-nav">Productos</a>
+            <a href="ofertas.html" class="btn-nav">Ofertas</a>
+            <a href="cupones.html" class="btn-nav">Cupones</a>
+
+            <!-- Carrito -->
+            <a href="carrito.php" class="btn-img">
+                <img src="img/header/carrito-de-compras.png" alt="Carrito" width="55" height="55">
+            </a>
+
+            <!-- Menú desplegable -->
+            <details class="menu-desplegable">
+                <summary>
+                    <img src="img/header/menu.png" alt="menu" width="65" height="65">
+                </summary>
+                <div class="desplegable-contenido">
+                    <a href="soportetecnico.html">Soporte Técnico</a>
+                    <form action="iniciarsesion.html" method="get" style="width: 100%;">
+                        <button type="submit" class="btn-login-menu">Iniciar Sesión</button>
+                    </form>
+                </div>
+            </details>
+        </div>
+    </header>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+        <div class="h1">
+            <marquee>
+                <h1>🔥 ¡Super Ofertas y Descuentos Exclusivos en XENTEC! 🔥</h1>
+            </marquee>
+        </div>
+
+        <div class="contenedor">
+
+          <!-- PARLANTE -->
+            <div class="cupon">
+                <h2>Parlante</h2>
+                <div class="imagenes">
+                    <img class="monitor" src="img/base/parlantes.webp">
+                </div>
+                <div class="precio" style="text-align: center; margin: 15px 0;">
+                    <span style="text-decoration: line-through; color: #888; font-size: 16px; display: block;">$49.999</span>
+                    <h2 style="color: #000000; font-size: 30px; margin: 0;">$35.000</h2>
+                </div>
+                <div class="botones">
+                    <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                        <input type="hidden" name="nombre" value="Parlante">
+                        <input type="hidden" name="precio" value="35000">
+                        <input type="hidden" name="imagen" value="img/base/parlantes.webp">
+                        <button type="submit" class="comprar">Comprar</button>
+                    </form>
+                    <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                        <input type="hidden" name="nombre" value="Parlante">
+                        <input type="hidden" name="precio" value="35000">
+                        <input type="hidden" name="imagen" value="img/base/parlantes.webp">
+                        <button type="submit" class="carrito">
+                            <img src="img/header/carrito.png" alt="Carrito">
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- GRAFICA RTX -->
+            <div class="cupon">
+                <h2>Grafica RTX</h2>
+                <div class="imagenes">
+                    <img class="monitor" src="img/base/rtx.png">
+                </div>
+                <div class="precio" style="text-align: center; margin: 15px 0;">
+                    <span style="text-decoration: line-through; color: #888; font-size: 16px; display: block;">$959.999</span>
+                    <h2 style="color: #000000; font-size: 30px; margin: 0;">$799.999</h2>
+                </div>
+                <div class="botones">
+                    <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                        <input type="hidden" name="nombre" value="Grafica RTX">
+                        <input type="hidden" name="precio" value="799999">
+                        <input type="hidden" name="imagen" value="img/base/rtx.png">
+                        <button type="submit" class="comprar">Comprar</button>
+                    </form>
+                    <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                        <input type="hidden" name="nombre" value="Grafica RTX">
+                        <input type="hidden" name="precio" value="799999">
+                        <input type="hidden" name="imagen" value="img/base/rtx.png">
+                        <button type="submit" class="carrito">
+                            <img src="img/header/carrito.png" alt="Carrito">
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- MEMORIA RAM -->
+            <div class="cupon">
+                <h2>Memoria RAM</h2>
+                <div class="imagenes">
+                    <img class="monitor" src="img/base/ram.png">
+                </div>
+                <div class="precio" style="text-align: center; margin: 15px 0;">
+                    <span style="text-decoration: line-through; color: #888; font-size: 16px; display: block;">$650.000</span>
+                    <h2 style="color: #000000; font-size: 30px; margin: 0;">$520.000</h2>
+                </div>
+                <div class="botones">
+                    <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                        <input type="hidden" name="nombre" value="Memoria RAM">
+                        <input type="hidden" name="precio" value="520000">
+                        <input type="hidden" name="imagen" value="img/base/ram.png">
+                        <button type="submit" class="comprar">Comprar</button>
+                    </form>
+                    <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                        <input type="hidden" name="nombre" value="Memoria RAM">
+                        <input type="hidden" name="precio" value="520000">
+                        <input type="hidden" name="imagen" value="img/base/ram.png">
+                        <button type="submit" class="carrito">
+                            <img src="img/header/carrito.png" alt="Carrito">
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- PROCESADOR -->
+            <div class="cupon">
+                <h2>Procesador</h2>
+                <div class="imagenes">
+                    <img class="monitor" src="img/base/procesador.jpg">
+                </div>
+                <div class="precio" style="text-align: center; margin: 15px 0;">
+                    <span style="text-decoration: line-through; color: #888; font-size: 16px; display: block;">$380.000</span>
+                    <h2 style="color: #000000; font-size: 30px; margin: 0;">$299.000</h2>
+                </div>
+                <div class="botones">
+                    <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                        <input type="hidden" name="nombre" value="Procesador">
+                        <input type="hidden" name="precio" value="299000">
+                        <input type="hidden" name="imagen" value="img/base/procesador.jpg">
+                        <button type="submit" class="comprar">Comprar</button>
+                    </form>
+                    <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                        <input type="hidden" name="nombre" value="Procesador">
+                        <input type="hidden" name="precio" value="299000">
+                        <input type="hidden" name="imagen" value="img/base/procesador.jpg">
+                        <button type="submit" class="carrito">
+                            <img src="img/header/carrito.png" alt="Carrito">
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- PLACA MADRE -->
+            <div class="cupon">
+                <h2>Placa Madre</h2>
+                <div class="imagenes">
+                    <img class="monitor" src="img/base/placam.png">
+                </div>
+                <div class="precio" style="text-align: center; margin: 15px 0;">
+                    <span style="text-decoration: line-through; color: #888; font-size: 16px; display: block;">$80.000</span>
+                    <h2 style="color: #000000; font-size: 30px; margin: 0;">$65.000</h2>
+                </div>
+                <div class="botones">
+                    <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                        <input type="hidden" name="nombre" value="Placa Madre">
+                        <input type="hidden" name="precio" value="65000">
+                        <input type="hidden" name="imagen" value="img/base/placam.png">
+                        <button type="submit" class="comprar">Comprar</button>
+                    </form>
+                    <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                        <input type="hidden" name="nombre" value="Placa Madre">
+                        <input type="hidden" name="precio" value="65000">
+                        <input type="hidden" name="imagen" value="img/base/placam.png">
+                        <button type="submit" class="carrito">
+                            <img src="img/header/carrito.png" alt="Carrito">
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- ADAPTADOR -->
+            <div class="cupon">
+                <h2>Adaptador</h2>
+                <div class="imagenes">
+                    <img class="monitor" src="img/base/adaptador sata.png">
+                </div>
+                <div class="precio" style="text-align: center; margin: 15px 0;">
+                    <span style="text-decoration: line-through; color: #888; font-size: 16px; display: block;">$40.000</span>
+                    <h2 style="color: #000000; font-size: 30px; margin: 0;">$29.999</h2>
+                </div>
+                <div class="botones">
+                    <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                        <input type="hidden" name="nombre" value="Adaptador">
+                        <input type="hidden" name="precio" value="29999">
+                        <input type="hidden" name="imagen" value="img/base/adaptador sata.png">
+                        <button type="submit" class="comprar">Comprar</button>
+                    </form>
+                    <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                        <input type="hidden" name="nombre" value="Adaptador">
+                        <input type="hidden" name="precio" value="29999">
+                        <input type="hidden" name="imagen" value="img/base/adaptador sata.png">
+                        <button type="submit" class="carrito">
+                            <img src="img/header/carrito.png" alt="Carrito">
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- CABLE SATA -->
+            <div class="cupon">
+                <h2>Cable Sata</h2>
+                <div class="imagenes">
+                    <img class="monitor" src="img/base/cable sata.png">
+                </div>
+                <div class="precio" style="text-align: center; margin: 15px 0;">
+                    <span style="text-decoration: line-through; color: #888; font-size: 16px; display: block;">$10.000</span>
+                    <h2 style="color: #000000; font-size: 30px; margin: 0;">$7.500</h2>
+                </div>
+                <div class="botones">
+                    <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                        <input type="hidden" name="nombre" value="Cable Sata">
+                        <input type="hidden" name="precio" value="7500">
+                        <input type="hidden" name="imagen" value="img/base/cable sata.png">
+                        <button type="submit" class="comprar">Comprar</button>
+                    </form>
+                    <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                        <input type="hidden" name="nombre" value="Cable Sata">
+                        <input type="hidden" name="precio" value="7500">
+                        <input type="hidden" name="imagen" value="img/base/cable sata.png">
+                        <button type="submit" class="carrito">
+                            <img src="img/header/carrito.png" alt="Carrito">
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- DISCO DURO -->
+            <div class="cupon">
+                <h2>Disco Duro</h2>
+                <div class="imagenes">
+                    <img class="monitor" src="img/base/disco duro.png">
+                </div>
+                <div class="precio" style="text-align: center; margin: 15px 0;">
+                    <span style="text-decoration: line-through; color: #888; font-size: 16px; display: block;">$40.000</span>
+                    <h2 style="color: #000000; font-size: 30px; margin: 0;">$32.000</h2>
+                </div>
+                <div class="botones">
+                    <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                        <input type="hidden" name="nombre" value="Disco Duro">
+                        <input type="hidden" name="precio" value="32000">
+                        <input type="hidden" name="imagen" value="img/base/disco duro.png">
+                        <button type="submit" class="comprar">Comprar</button>
+                    </form>
+                    <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                        <input type="hidden" name="nombre" value="Disco Duro">
+                        <input type="hidden" name="precio" value="32000">
+                        <input type="hidden" name="imagen" value="img/base/disco duro.png">
+                        <button type="submit" class="carrito">
+                            <img src="img/header/carrito.png" alt="Carrito">
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- TECLADO -->
+            <div class="cupon">
+                <h2>Teclado</h2>
+                <div class="imagenes">
+                    <img class="monitor" src="img/base/teclado inalambrico.png">
+                </div>
+                <div class="precio" style="text-align: center; margin: 15px 0;">
+                    <span style="text-decoration: line-through; color: #888; font-size: 16px; display: block;">$40.000</span>
+                    <h2 style="color: #000000; font-size: 30px; margin: 0;">$32.000</h2>
+                </div>
+                <div class="botones">
+                    <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                        <input type="hidden" name="nombre" value="Teclado">
+                        <input type="hidden" name="precio" value="32000">
+                        <input type="hidden" name="imagen" value="img/base/teclado inalambrico.png">
+                        <button type="submit" class="comprar">Comprar</button>
+                    </form>
+                    <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                        <input type="hidden" name="nombre" value="Teclado">
+                        <input type="hidden" name="precio" value="32000">
+                        <input type="hidden" name="imagen" value="img/base/teclado inalambrico.png">
+                        <button type="submit" class="carrito">
+                            <img src="img/header/carrito.png" alt="Carrito">
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- PENDRIVE -->
+            <div class="cupon">
+                <h2>Pendrive</h2>
+                <div class="imagenes">
+                    <img class="monitor" src="img/base/pendrive.jpg">
+                </div>
+                <div class="precio" style="text-align: center; margin: 15px 0;">
+                    <span style="text-decoration: line-through; color: #888; font-size: 16px; display: block;">$40.000</span>
+                    <h2 style="color: #000000; font-size: 30px; margin: 0;">$31.000</h2>
+                </div>
+                <div class="botones">
+                    <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                        <input type="hidden" name="nombre" value="Pendrive">
+                        <input type="hidden" name="precio" value="31000">
+                        <input type="hidden" name="imagen" value="img/base/pendrive.jpg">
+                        <button type="submit" class="comprar">Comprar</button>
+                    </form>
+                    <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                        <input type="hidden" name="nombre" value="Pendrive">
+                        <input type="hidden" name="precio" value="31000">
+                        <input type="hidden" name="imagen" value="img/base/pendrive.jpg">
+                        <button type="submit" class="carrito">
+                            <img src="img/header/carrito.png" alt="Carrito">
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <!-- ADAPTADOR DATA -->
+            <div class="cupon">
+                <h2>Adaptador Data</h2>
+                <div class="imagenes">
+                    <img class="monitor" src="img/base/adaptadorData.png">
+                </div>
+                <div class="precio" style="text-align: center; margin: 15px 0;">
+                    <span style="text-decoration: line-through; color: #888; font-size: 16px; display: block;">$14.999</span>
+                    <h2 style="color: #000000; font-size: 30px; margin: 0;">$11.500</h2>
+                </div>
+                <div class="botones">
+                    <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                        <input type="hidden" name="nombre" value="Adaptador Data">
+                        <input type="hidden" name="precio" value="11500">
+                        <input type="hidden" name="imagen" value="img/base/adaptadorData.png">
+                        <button type="submit" class="comprar">Comprar</button>
+                    </form>
+                    <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                        <input type="hidden" name="nombre" value="Adaptador Data">
+                        <input type="hidden" name="precio" value="11500">
+                        <input type="hidden" name="imagen" value="img/base/adaptadorData.png">
+                        <button type="submit" class="carrito">
+                            <img src="img/header/carrito.png" alt="Carrito">
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- AURICULARES -->
+            <div class="cupon">
+                <h2>Auriculares</h2>
+                <div class="imagenes">
+                    <img class="monitor" src="img/base/auriculares.jpeg">
+                </div>
+                <div class="precio" style="text-align: center; margin: 15px 0;">
+                    <span style="text-decoration: line-through; color: #888; font-size: 16px; display: block;">$250.000</span>
+                    <h2 style="color: #000000; font-size: 30px; margin: 0;">$199.999</h2>
+                </div>
+                <div class="botones">
+                    <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                        <input type="hidden" name="nombre" value="Auriculares">
+                        <input type="hidden" name="precio" value="199999">
+                        <input type="hidden" name="imagen" value="img/base/auriculares.jpeg">
+                        <button type="submit" class="comprar">Comprar</button>
+                    </form>
+                    <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                        <input type="hidden" name="nombre" value="Auriculares">
+                        <input type="hidden" name="precio" value="199999">
+                        <input type="hidden" name="imagen" value="img/base/auriculares.jpeg">
+                        <button type="submit" class="carrito">
+                            <img src="img/header/carrito.png" alt="Carrito">
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- FUENTE -->
+            <div class="cupon">
+                <h2>Fuente</h2>
+                <div class="imagenes">
+                    <img class="monitor" src="img/base/fuente.jpg">
+                </div>
+                <div class="precio" style="text-align: center; margin: 15px 0;">
+                    <span style="text-decoration: line-through; color: #888; font-size: 16px; display: block;">$70.000</span>
+                    <h2 style="color: #000000; font-size: 30px; margin: 0;">$55.000</h2>
+                </div>
+                <div class="botones">
+                    <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                        <input type="hidden" name="nombre" value="Fuente">
+                        <input type="hidden" name="precio" value="55000">
+                        <input type="hidden" name="imagen" value="img/base/fuente.jpg">
+                        <button type="submit" class="comprar">Comprar</button>
+                    </form>
+                    <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                        <input type="hidden" name="nombre" value="Fuente">
+                        <input type="hidden" name="precio" value="55000">
+                        <input type="hidden" name="imagen" value="img/base/fuente.jpg">
+                        <button type="submit" class="carrito">
+                            <img src="img/header/carrito.png" alt="Carrito">
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- COOLER DE AGUA -->
+            <div class="cupon">
+                <h2>Cooler de Agua</h2>
+                <div class="imagenes">
+                    <img class="monitor" src="img/base/cooller de agua.png">
+                </div>
+                <div class="precio" style="text-align: center; margin: 15px 0;">
+                    <span style="text-decoration: line-through; color: #888; font-size: 16px; display: block;">$120.000</span>
+                    <h2 style="color: #000000; font-size: 30px; margin: 0;">$95.000</h2>
+                </div>
+                <div class="botones">
+                    <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                        <input type="hidden" name="nombre" value="Cooler de Agua">
+                        <input type="hidden" name="precio" value="95000">
+                        <input type="hidden" name="imagen" value="img/base/cooller de agua.png">
+                        <button type="submit" class="comprar">Comprar</button>
+                    </form>
+                    <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                        <input type="hidden" name="nombre" value="Cooler de Agua">
+                        <input type="hidden" name="precio" value="95000">
+                        <input type="hidden" name="imagen" value="img/base/cooller de agua.png">
+                        <button type="submit" class="carrito">
+                            <img src="img/header/carrito.png" alt="Carrito">
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- MONITOR INALÁMBRICO -->
+            <div class="cupon">
+                <h2>Monitor Inalámbrico</h2>
+                <div class="imagenes">
+                    <img class="monitor" src="img/base/monitor inalambrico.png">
+                </div>
+                <div class="precio" style="text-align: center; margin: 15px 0;">
+                    <span style="text-decoration: line-through; color: #888; font-size: 16px; display: block;">$410.000</span>
+                    <h2 style="color: #000000; font-size: 30px; margin: 0;">$349.999</h2>
+                </div>
+                <div class="botones">
+                    <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                        <input type="hidden" name="nombre" value="Monitor Inalámbrico">
+                        <input type="hidden" name="precio" value="349999">
+                        <input type="hidden" name="imagen" value="img/base/monitor inalambrico.png">
+                        <button type="submit" class="comprar">Comprar</button>
+                    </form>
+                    <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                        <input type="hidden" name="nombre" value="Monitor Inalámbrico">
+                        <input type="hidden" name="precio" value="349999">
+                        <input type="hidden" name="imagen" value="img/base/monitor inalambrico.png">
+                        <button type="submit" class="carrito">
+                            <img src="img/header/carrito.png" alt="Carrito">
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- SSD -->
+            <div class="cupon">
+                <h2>SSD</h2>
+                <div class="imagenes">
+                    <img class="monitor" src="img/base/ssd.png">
+                </div>
+                <div class="precio" style="text-align: center; margin: 15px 0;">
+                    <span style="text-decoration: line-through; color: #888; font-size: 16px; display: block;">$250.000</span>
+                    <h2 style="color: #000000; font-size: 30px; margin: 0;">$199.000</h2>
+                </div>
+                <div class="botones">
+                    <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                        <input type="hidden" name="nombre" value="SSD">
+                        <input type="hidden" name="precio" value="199000">
+                        <input type="hidden" name="imagen" value="img/base/ssd.png">
+                        <button type="submit" class="comprar">Comprar</button>
+                    </form>
+                    <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                        <input type="hidden" name="nombre" value="SSD">
+                        <input type="hidden" name="precio" value="199000">
+                        <input type="hidden" name="imagen" value="img/base/ssd.png">
+                        <button type="submit" class="carrito">
+                            <img src="img/header/carrito.png" alt="Carrito">
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <!-- MONITOR SAMSUNG -->
+            <div class="cupon">
+                <h2>Monitor Samsung</h2>
+                <div class="imagenes">
+                    <img class="monitor" src="img/base/MONITOR-SAMSUNG.png">
+                </div>
+                <div class="precio" style="text-align: center; margin: 15px 0;">
+                    <span style="text-decoration: line-through; color: #888; font-size: 16px; display: block;">$310.000</span>
+                    <h2 style="color: #000000; font-size: 30px; margin: 0;">$259.999</h2>
+                </div>
+                <div class="botones">
+                    <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                        <input type="hidden" name="nombre" value="Monitor Samsung">
+                        <input type="hidden" name="precio" value="259999">
+                        <input type="hidden" name="imagen" value="img/base/MONITOR-SAMSUNG.png">
+                        <button type="submit" class="comprar">Comprar</button>
+                    </form>
+                    <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                        <input type="hidden" name="nombre" value="Monitor Samsung">
+                        <input type="hidden" name="precio" value="259999">
+                        <input type="hidden" name="imagen" value="img/base/MONITOR-SAMSUNG.png">
+                        <button type="submit" class="carrito">
+                            <img src="img/header/carrito.png" alt="Carrito">
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- MONITOR CURVO -->
+            <div class="cupon">
+                <h2>Monitor Curvo</h2>
+                <div class="imagenes">
+                    <img class="monitor" src="img/base/monitorcurvo.png">
+                </div>
+                <div class="precio" style="text-align: center; margin: 15px 0;">
+                    <span style="text-decoration: line-through; color: #888; font-size: 16px; display: block;">$420.000</span>
+                    <h2 style="color: #000000; font-size: 30px; margin: 0;">$350.000</h2>
+                </div>
+                <div class="botones">
+                    <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                        <input type="hidden" name="nombre" value="Monitor Curvo">
+                        <input type="hidden" name="precio" value="350000">
+                        <input type="hidden" name="imagen" value="img/base/monitorcurvo.png">
+                        <button type="submit" class="comprar">Comprar</button>
+                    </form>
+                    <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                        <input type="hidden" name="nombre" value="Monitor Curvo">
+                        <input type="hidden" name="precio" value="350000">
+                        <input type="hidden" name="imagen" value="img/base/monitorcurvo.png">
+                        <button type="submit" class="carrito">
+                            <img src="img/header/carrito.png" alt="Carrito">
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- PC COMPLETA -->
+            <div class="cupon">
+                <h2>PC completa</h2>
+                <div class="imagenes">
+                    <img class="monitor" src="img/base/pccompleta.png">
+                </div>
+                <div class="precio" style="text-align: center; margin: 15px 0;">
+                    <span style="text-decoration: line-through; color: #888; font-size: 16px; display: block;">$1.200.000</span>
+                    <h2 style="color: #000000; font-size: 30px; margin: 0;">$999.999</h2>
+                </div>
+                <div class="botones">
+                    <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                        <input type="hidden" name="nombre" value="PC completa">
+                        <input type="hidden" name="precio" value="999999">
+                        <input type="hidden" name="imagen" value="img/base/pccompleta.png">
+                        <button type="submit" class="comprar">Comprar</button>
+                    </form>
+                    <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                        <input type="hidden" name="nombre" value="PC completa">
+                        <input type="hidden" name="precio" value="999999">
+                        <input type="hidden" name="imagen" value="img/base/pccompleta.png">
+                        <button type="submit" class="carrito">
+                            <img src="img/header/carrito.png" alt="Carrito">
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- LAPTOP GAMER -->
+            <div class="cupon">
+                <h2>Laptop gamer</h2>
+                <div class="imagenes">
+                    <img class="monitor" src="img/base/laptob gaymer msi.png">
+                </div>
+                <div class="precio" style="text-align: center; margin: 15px 0;">
+                    <span style="text-decoration: line-through; color: #888; font-size: 16px; display: block;">$1.800.000</span>
+                    <h2 style="color: #000000; font-size: 30px; margin: 0;">$1.490.000</h2>
+                </div>
+                <div class="botones">
+                    <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                        <input type="hidden" name="nombre" value="Laptop gamer">
+                        <input type="hidden" name="precio" value="1490000">
+                        <input type="hidden" name="imagen" value="img/base/laptob gaymer msi.png">
+                        <button type="submit" class="comprar">Comprar</button>
+                    </form>
+                    <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                        <input type="hidden" name="nombre" value="Laptop gamer">
+                        <input type="hidden" name="precio" value="1490000">
+                        <input type="hidden" name="imagen" value="img/base/laptob gaymer msi.png">
+                        <button type="submit" class="carrito">
+                            <img src="img/header/carrito.png" alt="Carrito">
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- MOUSE LOGITECH -->
+            <div class="cupon">
+                <h2>Mouse Logitech</h2>
+                <div class="imagenes">
+                    <img class="monitor" src="img/base/mouse-inalambrico-rgb.png">
+                </div>
+                <div class="precio" style="text-align: center; margin: 15px 0;">
+                    <span style="text-decoration: line-through; color: #888; font-size: 16px; display: block;">$150.000</span>
+                    <h2 style="color: #000000; font-size: 30px; margin: 0;">$115.000</h2>
+                </div>
+                <div class="botones">
+                    <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                        <input type="hidden" name="nombre" value="Mouse Logitech">
+                        <input type="hidden" name="precio" value="115000">
+                        <input type="hidden" name="imagen" value="img/base/mouse-inalambrico-rgb.png">
+                        <button type="submit" class="comprar">Comprar</button>
+                    </form>
+                    <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                        <input type="hidden" name="nombre" value="Mouse Logitech">
+                        <input type="hidden" name="precio" value="115000">
+                        <input type="hidden" name="imagen" value="img/base/mouse-inalambrico-rgb.png">
+                        <button type="submit" class="carrito">
+                            <img src="img/header/carrito.png" alt="Carrito">
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- MICROFONO -->
+            <div class="cupon">
+                <h2>Microfono</h2>
+                <div class="imagenes">
+                    <img class="monitor" src="img/base/microfono.jpg">
+                </div>
+                <div class="precio" style="text-align: center; margin: 15px 0;">
+                    <span style="text-decoration: line-through; color: #888; font-size: 16px; display: block;">$120.000</span>
+                    <h2 style="color: #000000; font-size: 30px; margin: 0;">$98.000</h2>
+                </div>
+                <div class="botones">
+                    <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                        <input type="hidden" name="nombre" value="Microfono">
+                        <input type="hidden" name="precio" value="98000">
+                        <input type="hidden" name="imagen" value="img/base/microfono.jpg">
+                        <button type="submit" class="comprar">Comprar</button>
+                    </form>
+                    <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                        <input type="hidden" name="nombre" value="Microfono">
+                        <input type="hidden" name="precio" value="98000">
+                        <input type="hidden" name="imagen" value="img/base/microfono.jpg">
+                        <button type="submit" class="carrito">
+                            <img src="img/header/carrito.png" alt="Carrito">
+                        </button>
+                    </form>
+                </div>
+            </div>
+           
+            <!-- ROUTER -->
+            <div class="cupon">
+                <h2>Router</h2>
+                <div class="imagenes">
+                    <img class="monitor" src="img/base/router.jpg">
+                </div>
+                <div class="precio" style="text-align: center; margin: 15px 0;">
+                    <span style="text-decoration: line-through; color: #888; font-size: 16px; display: block;">$60.000</span>
+                    <h2 style="color: #000000; font-size: 30px; margin: 0;">$48.000</h2>
+                </div>
+                <div class="botones">
+                    <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                        <input type="hidden" name="nombre" value="Router">
+                        <input type="hidden" name="precio" value="48000">
+                        <input type="hidden" name="imagen" value="img/base/router.jpg">
+                        <button type="submit" class="comprar">Comprar</button>
+                    </form>
+                    <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                        <input type="hidden" name="nombre" value="Router">
+                        <input type="hidden" name="precio" value="48000">
+                        <input type="hidden" name="imagen" value="img/base/router.jpg">
+                        <button type="submit" class="carrito">
+                            <img src="img/header/carrito.png" alt="Carrito">
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- SWITCH -->
+            <div class="cupon">
+                <h2>Switch</h2>
+                <div class="imagenes">
+                    <img class="monitor" src="img/base/Switch.webp">
+                </div>
+                <div class="precio" style="text-align: center; margin: 15px 0;">
+                    <span style="text-decoration: line-through; color: #888; font-size: 16px; display: block;">$100.000</span>
+                    <h2 style="color: #000000; font-size: 30px; margin: 0;">$82.000</h2>
+                </div>
+                <div class="botones">
+                    <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                        <input type="hidden" name="nombre" value="Switch">
+                        <input type="hidden" name="precio" value="82000">
+                        <input type="hidden" name="imagen" value="img/base/Switch.webp">
+                        <button type="submit" class="comprar">Comprar</button>
+                    </form>
+                    <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                        <input type="hidden" name="nombre" value="Switch">
+                        <input type="hidden" name="precio" value="82000">
+                        <input type="hidden" name="imagen" value="img/base/Switch.webp">
+                        <button type="submit" class="carrito">
+                            <img src="img/header/carrito.png" alt="Carrito">
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- CABLE VGA -->
+            <div class="cupon">
+                <h2>Cable VGA</h2>
+                <div class="imagenes">
+                    <img class="monitor" src="img/base/VGA.webp">
+                </div>
+                <div class="precio" style="text-align: center; margin: 15px 0;">
+                    <span style="text-decoration: line-through; color: #888; font-size: 16px; display: block;">$20.000</span>
+                    <h2 style="color: #000000; font-size: 30px; margin: 0;">$15.000</h2>
+                </div>
+                <div class="botones">
+                    <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                        <input type="hidden" name="nombre" value="Cable VGA">
+                        <input type="hidden" name="precio" value="15000">
+                        <input type="hidden" name="imagen" value="img/base/VGA.webp">
+                        <button type="submit" class="comprar">Comprar</button>
+                    </form>
+                    <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                        <input type="hidden" name="nombre" value="Cable VGA">
+                        <input type="hidden" name="precio" value="15000">
+                        <input type="hidden" name="imagen" value="img/base/VGA.webp">
+                        <button type="submit" class="carrito">
+                            <img src="img/header/carrito.png" alt="Carrito">
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+                <a href="#" class="btn-volver-arriba">▲</a>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div id="footer">
+            <div class="item">
+                <img src="img/redes/gmail.png" width="25" height="25" alt="Gmail">
+                <span>Contactanos: XENTEC@gmail.com</span>
+            </div>
+            <div class="item">
+                <img src="img/redes/instagram.png" width="25" height="25" alt="Instagram">
+                <span>XENTEC_Oficial</span>
+            </div>
+            <div class="item">
+                <img src="img/redes/Twitter.png" width="25" height="25" alt="Twitter">
+                <span>XENTEC</span>
+            </div>
+            <div class="item">
+                <img src="img/redes/facebook.png" width="25" height="25" alt="Facebook">
+                <span>XENTEC_Oficial</span>
+            </div>
+            <div class="item">
+                <img src="img/redes/whatsapp.png" width="25" height="25" alt="WhatsApp">
+                <span>+54 9 11 4609-3377</span>
+            </div>
+            <div class="item">
+                <img src="img/redes/marcador-de-posicion.png" width="25" height="25" alt="Ubicación">
+                <span>Avenida Santa Fe 2100, Recoleta, CABA</span>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

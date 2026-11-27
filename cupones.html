@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cupones</title>
+    <link rel="stylesheet" href="cupones2.css">
+    <link rel="shortcut icon" href="img/header/logo.jpg" type="image/x-icon">
+</head>
+
+<body>
+
+    <header>
+        <div class="menu">
+            <!-- Logo ampliado -->
+            <a href="index.php" class="btn-img">
+               <img class="img-menu" src="img/header/logo.jpg" alt="logo">
+             </a>
+
+            <!-- Botones principales con marco -->
+            <a href="productos.html" class="btn-nav">Productos</a>
+            <a href="ofertas.html" class="btn-nav">Ofertas</a>
+            <a href="cupones.html" class="btn-nav">Cupones</a>
+
+            <!-- Carrito ampliado -->
+            <a href="carrito.php" class="btn-img">
+                <img src="img/header/carrito-de-compras.png" alt="Carrito" width="55" height="55">
+            </a>
+
+            <!-- Menú Desplegable -->
+            <details class="menu-desplegable">
+                <summary>
+                    <img src="img/header/menu.png" alt="Menú" width="65" height="65">
+                </summary>
+                <div class="desplegable-contenido">
+                    <a href="soportetecnico.html">Soporte Técnico</a>
+                    <form action="iniciarsesion.html" method="get" style="width: 100%;">
+                        <button type="submit" class="btn-login-menu">Iniciar Sesión</button>
+                    </form>
+                </div>
+            </details>
+        </div>
+    </header>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <div class="h1">
+        <h1>Cupones de Descuentos</h1>
+    </div>
+
+    <main class="contenedor">
+        <!-- FILA 1 -->
+        <div class="cupon">
+            <h2>CUPON 1: SETUP GAMER BÁSICO</h2>
+            <div class="carrusel">
+                <button class="carrusel-btn prev">&#10094;</button>
+                <div class="carrusel-slide">
+                    <img class="activo" src="img/base/MONITOR-SAMSUNG.png" alt="Monitor Samsung">
+                    <img src="img/base/tecladogamergtc.png" alt="Teclado Gamer">
+                    <img src="img/base/mouse inalambrico rgb.png" alt="Mouse RGB">
+                    <img src="img/base/parlantes.webp" alt="Parlante">
+                </div>
+                <button class="carrusel-btn next">&#10095;</button>
+            </div>
+            <div class="info">
+                <div class="incluye">
+                    <h3>Incluye:</h3>
+                    <ul>
+                        <li>Monitor Samsung</li>
+                        <li>Teclado Gamer</li>
+                        <li>Mouse RGB</li>
+                        <li>Parlante</li>
+                    </ul>
+                    <h2 class="precio">$429.999</h2>
+                    <div class="botones">
+                        <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                            <input type="hidden" name="nombre" value="Cupon 1">
+                            <input type="hidden" name="precio" value="429999">
+                            <input type="hidden" name="imagen" value="img/base/Imgcupon.png">
+                            <button type="submit" class="comprar">Comprar</button>
+                        </form>
+                        <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                            <input type="hidden" name="nombre" value="Cupon 1">
+                            <input type="hidden" name="precio" value="429999">
+                            <input type="hidden" name="imagen" value="img/base/Imgcupon.png">
+                            <button type="submit" class="carrito">
+                                <img src="img/header/carrito.png" alt="Carrito">
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cupon">
+            <h2>CUPON 2: SETUP GAMER PRO INICIAL</h2>
+            <div class="carrusel">
+                <button class="carrusel-btn prev">&#10094;</button>
+                <div class="carrusel-slide">
+                    <img class="activo" src="img/base/pccompleta.png" alt="PC Completa">
+                    <img src="img/base/teclado inalambrico.png" alt="Teclado Inalámbrico">
+                    <img src="img/base/mouse inalambrico rgb.png" alt="Mouse RGB">
+                    <img src="img/base/parlantes.webp" alt="Parlante">
+                </div>
+                <button class="carrusel-btn next">&#10095;</button>
+            </div>
+            <div class="info">
+                <div class="incluye">
+                    <h3>Incluye:</h3>
+                    <ul>
+                        <li>PC Gamer Ryzen 7</li>
+                        <li>Teclado Mecánico</li>
+                        <li>Mouse Profesional</li>
+                        <li>Parlante</li>
+                    </ul>
+                    <h2 class="precio">$1.899.999</h2>
+                    <div class="botones">
+                        <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                            <input type="hidden" name="nombre" value="Cupon 2">
+                            <input type="hidden" name="precio" value="1899999">
+                            <input type="hidden" name="imagen" value="img/base/Imgcupon.png">
+                            <button type="submit" class="comprar">Comprar</button>
+                        </form>
+                        <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                            <input type="hidden" name="nombre" value="Cupon 2">
+                            <input type="hidden" name="precio" value="1899999">
+                            <input type="hidden" name="imagen" value="img/base/Imgcupon.png">
+                            <button type="submit" class="carrito">
+                                <img src="img/header/carrito.png" alt="Carrito">
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cupon">
+            <h2>CUPON 3: COMBO HOME OFFICE</h2>
+            <div class="carrusel">
+                <button class="carrusel-btn prev">&#10094;</button>
+                <div class="carrusel-slide">
+                    <img class="activo" src="img/base/Monitor ips.jpg" alt="Monitor">
+                    <img src="img/base/TecladoErgonomico.png" alt="Teclado Ergonomico">
+                    <img src="img/base/mouse inalambrico rgb.png" alt="Mouse Optico">
+                    <img src="img/base/parlantes.webp" alt="Parlante">
+                </div>
+                <button class="carrusel-btn next">&#10095;</button>
+            </div>
+            <div class="info">
+                <div class="incluye">
+                    <h3>Incluye:</h3>
+                    <ul>
+                        <li>Monitor IPS 24"</li>
+                        <li>Teclado Ergonómico</li>
+                        <li>Mouse Inalámbrico</li>
+                        <li>Parlante</li>
+                    </ul>
+                    <h2 class="precio">$310.000</h2>
+                    <div class="botones">
+                        <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                            <input type="hidden" name="nombre" value="Cupon 3">
+                            <input type="hidden" name="precio" value="310000">
+                            <input type="hidden" name="imagen" value="img/base/Imgcupon.png">
+                            <button type="submit" class="comprar">Comprar</button>
+                        </form>
+                        <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                            <input type="hidden" name="nombre" value="Cupon 3">
+                            <input type="hidden" name="precio" value="310000">
+                            <input type="hidden" name="imagen" value="img/base/Imgcupon.png">
+                            <button type="submit" class="carrito">
+                                <img src="img/header/carrito.png" alt="Carrito">
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FILA 2 -->
+        <div class="cupon">
+            <h2>CUPON 4: PACK STREAMER STARTER</h2>
+            <div class="carrusel">
+                <button class="carrusel-btn prev">&#10094;</button>
+                <div class="carrusel-slide">
+                    <img class="activo" src="img/base/MONITORCURVO.webp" alt="Monitor Curvo">
+                    <img src="img/base/tecladogamergtc.png" alt="Teclado Gamer">
+                    <img src="img/base/mouse inalambrico rgb.png" alt="Mouse RGB">
+                    <img src="img/base/parlantes.webp" alt="Parlante">
+                </div>
+                <button class="carrusel-btn next">&#10095;</button>
+            </div>
+            <div class="info">
+                <div class="incluye">
+                    <h3>Incluye:</h3>
+                    <ul>
+                        <li>Monitor Curvo 27"</li>
+                        <li>Teclado Gamer</li>
+                        <li>Mouse RGB</li>
+                        <li>Parlante</li>
+                    </ul>
+                    <h2 class="precio">$250.000</h2>
+                    <div class="botones">
+                        <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                            <input type="hidden" name="nombre" value="Cupon 4">
+                            <input type="hidden" name="precio" value="250000">
+                            <input type="hidden" name="imagen" value="img/base/Imgcupon.png">
+                            <button type="submit" class="comprar">Comprar</button>
+                        </form>
+                        <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                            <input type="hidden" name="nombre" value="Cupon 4">
+                            <input type="hidden" name="precio" value="250000">
+                            <input type="hidden" name="imagen" value="img/base/Imgcupon.png">
+                            <button type="submit" class="carrito">
+                                <img src="img/header/carrito.png" alt="Carrito">
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cupon">
+            <h2>CUPON 5: SETUP AUDIÓFILO RGB</h2>
+            <div class="carrusel">
+                <button class="carrusel-btn prev">&#10094;</button>
+                <div class="carrusel-slide">
+                    <img class="activo" src="img/base/parlanteHiFi.jpg" alt="Parlante">
+                    <img src="img/base/tecladogamergtc.png" alt="Teclado Gamer">
+                    <img src="img/base/mouse inalambrico rgb.png" alt="Mouse RGB">
+                    <img src="img/base/MONITOR-SAMSUNG.png" alt="Monitor">
+                </div>
+                <button class="carrusel-btn next">&#10095;</button>
+            </div>
+            <div class="info">
+                <div class="incluye">
+                    <h3>Incluye:</h3>
+                    <ul>
+                        <li>Parlante Hi-Fi</li>
+                        <li>Teclado Gamer</li>
+                        <li>Mouse RGB</li>
+                        <li>Monitor LED</li>
+                    </ul>
+                    <h2 class="precio">$185.000</h2>
+                    <div class="botones">
+                        <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                            <input type="hidden" name="nombre" value="Cupon 5">
+                            <input type="hidden" name="precio" value="185000">
+                            <input type="hidden" name="imagen" value="img/base/Imgcupon.png">
+                            <button type="submit" class="comprar">Comprar</button>
+                        </form>
+                        <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                            <input type="hidden" name="nombre" value="Cupon 5">
+                            <input type="hidden" name="precio" value="185000">
+                            <input type="hidden" name="imagen" value="img/base/Imgcupon.png">
+                            <button type="submit" class="carrito">
+                                <img src="img/header/carrito.png" alt="Carrito">
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cupon">
+            <h2>CUPON 6: COMBO PERIFÉRICOS WIRELESS</h2>
+            <div class="carrusel">
+                <button class="carrusel-btn prev">&#10094;</button>
+                <div class="carrusel-slide">
+                    <img class="activo" src="img/base/TecladoWireless.jpg" alt="Teclado Inalambrico">
+                    <img src="img/base/Mouse Wireless.jpg" alt="Mouse Inalambrico">
+                    <img src="img/base/parlantes.webp" alt="Parlante">
+                    <img src="img/base/MONITOR-SAMSUNG.png" alt="Monitor">
+                </div>
+                <button class="carrusel-btn next">&#10095;</button>
+            </div>
+            <div class="info">
+                <div class="incluye">
+                    <h3>Incluye:</h3>
+                    <ul>
+                        <li>Teclado Wireless</li>
+                        <li>Mouse Ultralight Wireless</li>
+                        <li>Parlante</li>
+                        <li>Monitor Samsung</li>
+                    </ul>
+                    <h2 class="precio">$195.000</h2>
+                    <div class="botones">
+                        <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                            <input type="hidden" name="nombre" value="Cupon 6">
+                            <input type="hidden" name="precio" value="195000">
+                            <input type="hidden" name="imagen" value="img/base/Imgcupon.png">
+                            <button type="submit" class="comprar">Comprar</button>
+                        </form>
+                        <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                            <input type="hidden" name="nombre" value="Cupon 6">
+                            <input type="hidden" name="precio" value="195000">
+                            <input type="hidden" name="imagen" value="img/base/Imgcupon.png">
+                            <button type="submit" class="carrito">
+                                <img src="img/header/carrito.png" alt="Carrito">
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FILA 3 -->
+        <div class="cupon">
+            <h2>CUPON 7: PACK ESTUDIANTE PORTÁTIL</h2>
+            <div class="carrusel">
+                <button class="carrusel-btn prev">&#10094;</button>
+                <div class="carrusel-slide">
+                    <img class="activo" src="img/base/CPU.webp" alt="PC Completa">
+                    <img src="img/base/mouse inalambrico rgb.png" alt="Mouse RGB">
+                    <img src="img/base/parlantes.webp" alt="Parlante">
+                    <img src="img/base/teclado inalambrico.png" alt="Teclado">
+                </div>
+                <button class="carrusel-btn next">&#10095;</button>
+            </div>
+            <div class="info">
+                <div class="incluye">
+                    <h3>Incluye:</h3>
+                    <ul>
+                        <li>PC Gabinete Completo</li>
+                        <li>Mouse Bluetooth</li>
+                        <li>Parlante</li>
+                        <li>Teclado Inalámbrico</li>
+                    </ul>
+                    <h2 class="precio">$670.000</h2>
+                    <div class="botones">
+                        <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                            <input type="hidden" name="nombre" value="Cupon 7">
+                            <input type="hidden" name="precio" value="670000">
+                            <input type="hidden" name="imagen" value="img/base/Imgcupon.png">
+                            <button type="submit" class="comprar">Comprar</button>
+                        </form>
+                        <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                            <input type="hidden" name="nombre" value="Cupon 7">
+                            <input type="hidden" name="precio" value="670000">
+                            <input type="hidden" name="imagen" value="img/base/Imgcupon.png">
+                            <button type="submit" class="carrito">
+                                <img src="img/header/carrito.png" alt="Carrito">
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cupon">
+            <h2>CUPON 8: BUNDLE CREATIVO & DISEÑO</h2>
+            <div class="carrusel">
+                <button class="carrusel-btn prev">&#10094;</button>
+                <div class="carrusel-slide">
+                    <img class="activo" src="img/base/Minotor 4k.jpg" alt="Monitor 4K">
+                    <img src="img/base/Mouse Wireless.jpg" alt="Mouse RGB">
+                    <img src="img/base/teclado inalambrico.png" alt="Teclado">
+                    <img src="img/base/parlantes.webp" alt="Parlante">
+                </div>
+                <button class="carrusel-btn next">&#10095;</button>
+            </div>
+            <div class="info">
+                <div class="incluye">
+                    <h3>Incluye:</h3>
+                    <ul>
+                        <li>Monitor 4K 27"</li>
+                        <li>Mouse Ergonómico</li>
+                        <li>Teclado Inalámbrico</li>
+                        <li>Parlante</li>
+                    </ul>
+                    <h2 class="precio">$540.000</h2>
+                    <div class="botones">
+                        <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                            <input type="hidden" name="nombre" value="Cupon 8">
+                            <input type="hidden" name="precio" value="540000">
+                            <input type="hidden" name="imagen" value="img/base/Imgcupon.png">
+                            <button type="submit" class="comprar">Comprar</button>
+                        </form>
+                        <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                            <input type="hidden" name="nombre" value="Cupon 8">
+                            <input type="hidden" name="precio" value="540000">
+                            <input type="hidden" name="imagen" value="img/base/Imgcupon.png">
+                            <button type="submit" class="carrito">
+                                <img src="img/header/carrito.png" alt="Carrito">
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cupon">
+            <h2>CUPON 9: COMBO GAMING ULTIMATE</h2>
+            <div class="carrusel">
+                <button class="carrusel-btn prev">&#10094;</button>
+                <div class="carrusel-slide">
+                    <img class="activo" src="img/base/pccompleta.png" alt="PC Ultra">
+                    <img src="img/base/tecladogamergtc.png" alt="Teclado Optico">
+                    <img src="img/base/mouse inalambrico rgb.png" alt="Mouse RGB">
+                    <img src="img/base/parlantes.webp" alt="Parlante">
+                </div>
+                <button class="carrusel-btn next">&#10095;</button>
+            </div>
+            <div class="info">
+                <div class="incluye">
+                    <h3>Incluye:</h3>
+                    <ul>
+                        <li>PC Ryzen Gamer</li>
+                        <li>Teclado Mecánico</li>
+                        <li>Mouse Gaming</li>
+                        <li>Parlante</li>
+                    </ul>
+                    <h2 class="precio">$2.450.000</h2>
+                    <div class="botones">
+                        <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                            <input type="hidden" name="nombre" value="Cupon 9">
+                            <input type="hidden" name="precio" value="2450000">
+                            <input type="hidden" name="imagen" value="img/base/Imgcupon.png">
+                            <button type="submit" class="comprar">Comprar</button>
+                        </form>
+                        <form action="agregarcarrito.php" method="POST" style="display:inline;">
+                            <input type="hidden" name="nombre" value="Cupon 9">
+                            <input type="hidden" name="precio" value="2450000">
+                            <input type="hidden" name="imagen" value="img/base/Imgcupon.png">
+                            <button type="submit" class="carrito">
+                                <img src="img/header/carrito.png" alt="Carrito">
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <a href="#" class="btn-volver-arriba">▲</a>
+
+    </main>
+
+    <!-- FOOTER -->
+   <footer>
+        <div id="footer">
+            <div class="item">
+                <img src="img/redes/gmail.png" width="25" height="25">
+                <span>Contactanos: XENTEC@gmail.com</span>
+            </div>
+            <div class="item">
+                <img src="img/redes/instagram.png" width="25" height="25">
+                <span>XENTEC_Oficial</span>
+            </div>
+            <div class="item">
+                <img src="img/redes/Twitter.png" width="25" height="25">
+                <span>XENTEC</span>
+            </div>
+            <div class="item">
+                <img src="img/redes/facebook.png" width="25" height="25">
+                <span>XENTEC_Oficial</span>
+            </div>
+            <div class="item">
+                <img src="img/redes/whatsapp.png" width="25" height="25">
+                <span>+54 9 11 4609-3377</span>
+            </div>
+            <div class="item">
+                <img src="img/redes/marcador-de-posicion.png" width="25" height="25">
+                <span>Avenida Santa Fe 2100, Recoleta, CABA</span>
+            </div>
+        </div>
+    </footer>
+    <!-- SCRIPT CARRUSEL -->
+    <script>
+        document.querySelectorAll('.carrusel').forEach(carrusel => {
+            const imagenes = carrusel.querySelectorAll('.carrusel-slide img');
+            const prevBtn = carrusel.querySelector('.prev');
+            const nextBtn = carrusel.querySelector('.next');
+            let indexActual = 0;
+
+            function actualizarImagen() {
+                imagenes.forEach((img, i) => {
+                    img.classList.toggle('activo', i === indexActual);
+                });
+            }
+
+            prevBtn.addEventListener('click', () => {
+                indexActual = (indexActual - 1 + imagenes.length) % imagenes.length;
+                actualizarImagen();
+            });
+
+            nextBtn.addEventListener('click', () => {
+                indexActual = (indexActual + 1) % imagenes.length;
+                actualizarImagen();
+            });
+        });
+    </script>
+</body>
+
+</html>

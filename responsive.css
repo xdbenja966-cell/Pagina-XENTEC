@@ -1,0 +1,30 @@
+/* ===== LOGIN / CREAR USUARIO RESPONSIVE ===== */
+body {
+    height: auto;
+    min-height: 100vh;
+    padding: 80px 16px 30px;
+    box-sizing: border-box;
+}
+
+.login {
+    width: 100%;
+    max-width: 350px;
+    padding: 30px 24px;
+    box-sizing: border-box;
+}
+
+.login input {
+    width: 100%;
+    font-size: 16px; /* evita el zoom automático en iPhone */
+}
+
+@media (max-width: 600px) {
+    .volver {
+        top: 12px;
+        left: 12px;
+        width: 44px;
+        height: 44px;
+        font-size: 28px;
+    }
+    .login { padding: 24px 18px; }
+}
